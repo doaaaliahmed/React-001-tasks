@@ -1,0 +1,47 @@
+form{
+  margin:2rem;
+  width:40rem;
+}
+
+.form-control{
+  position: relative;
+  width:70%;
+}
+
+input[type='text']{
+  padding:15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width:100%;
+  border: 1px solid lightgray;
+ 
+}
+
+button{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+
+ul{
+  margin: 2rem;
+  font-size: 1.7rem;
+  background-color: rgb(233, 233, 233);
+  border-radius: 20px;
+  padding: 2rem;
+  list-style: none;
+  width:40rem;
+}
+
+li{
+  margin-bottom:1rem;
+ 
+}
