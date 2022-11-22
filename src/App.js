@@ -25,8 +25,8 @@ const App = () => {
       </form>
       {list.length > 0 && (
         <ul>
-          {list.map((l) => (
-            <li>{l}</li>
+          {list.map((l,i) => (
+            <li key={`k${i}`}>{l}</li>
           ))}
         </ul>
       )}
